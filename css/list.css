@@ -1,0 +1,48 @@
+ul{
+	list-style: none;
+	background-color: #212529;
+	text-align: center;
+	padding:20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	line-height: 0.5em;
+
+}
+ul li{
+
+	margin-top: 5em;
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	padding: 20px 50px;
+	font-weight: bold;
+	color: #7cfc00;
+	font-size: 1.5em;
+  
+}
+ul li a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+ul ul li:hover ul {
+  display: block;
+}
+ul li:hover ul {
+  display: block;
+}
+ul li ul {
+  position: absolute;
+  display: none;
+  height: auto; 
+  padding: 20px 40px;
+
+}ul li ul li:hover {
+
+  background-color: #323232;
+
+}

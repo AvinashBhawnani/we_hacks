@@ -1,0 +1,77 @@
+/*===============================Side bar Navigation===========================*/
+.sidenav img{
+    top: -10px;
+    position: absolute;
+    width: 40%;
+    padding: 30%;
+    margin: auto;
+    position: absolute;
+    border-radius: 50%;
+}
+.sidenav {
+  float: left;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 12em;
+  background-color: #212529;
+  
+}
+
+.sidenav a {
+  
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px; 
+  display: block;
+  transition: 0.3s;
+  color: #fff;
+}
+#mySidenav .pic_name{
+  margin-bottom: 2.5em; 
+  color: orange;
+  font-weight: bold;
+  margin-left: 1em;
+
+}
+
+.sidenav a:hover {
+  color: #fff;
+}
+
+.current {
+  background-color: #6c757d;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 46px;
+}
+
+#main {
+  padding: 5px;
+  margin-top: 0;
+  
+}
+
+.openNav{
+  margin-top: 3em;
+  font-size:30px;
+  padding: 0.8em;
+  cursor:pointer;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/*=====================================Side bar Navigation end=============================*/

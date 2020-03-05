@@ -1,0 +1,38 @@
+.logout{
+	margin-top: 4em;
+	font-size:20px;
+	padding: 1.8em;
+	cursor:pointer;
+	float: right;
+}
+.logout a{
+	color: #000;
+	text-decoration: none;
+}
+.back{
+	margin-top: 2.5em;
+	font-size:30px;
+	padding: 0.8em;
+	cursor:pointer;
+	float: right;
+}
+.back a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+button{
+
+	padding: 10px;
+	margin-top: 1.2em;
+    overflow: visible;
+    text-transform: none;
+    display: inline-block;
+	border: 3px solid #6c757d;
+}
+}
+
+button a {
+	text-decoration: none;
+	color: black;
+}
